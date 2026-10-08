@@ -14,14 +14,14 @@ body {
     justify-content: center;
     gap: 0.5rem;
     padding: 0.75rem 1rem;
-    background: #111;
+    background: #151515;
 }
 
 .navbar a {
     color: #ccc;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border-radius: 6px;
+    border-radius: 4px;
     transition: background 0.2s, color 0.2s;
 }
 
