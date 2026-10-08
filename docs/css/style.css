@@ -87,3 +87,12 @@ main {
 .contact {
     text-align: center;
 }
+
+.contributors {
+    text-align: center;
+}
+
+.contributors ul {
+    list-style-type: none;
+    padding: 0;
+}
