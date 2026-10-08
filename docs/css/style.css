@@ -71,3 +71,15 @@ body {
     margin-left: 0.5rem;
     color: #666;
 }
+
+.about-me h2 {
+    text-align: center;
+}
+
+.additional-work {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
