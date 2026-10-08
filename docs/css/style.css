@@ -5,6 +5,10 @@ body {
     font-family: system-ui, sans-serif;
 }
 
+main {
+    margin: 20px;
+}
+
 .navbar {
     position: sticky;
     top: 0;
