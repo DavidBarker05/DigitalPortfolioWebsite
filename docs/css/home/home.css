@@ -1,0 +1,39 @@
+.skills {
+    text-align: center;
+}
+
+.tag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tag-list li:not(:last-child)::after {
+    content: "|";
+    margin-left: 0.5rem;
+    color: #666;
+}
+
+.brief-games-list {
+    text-align: center;
+}
+
+.brief-games-list dt {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin: 1em 0 0.5em;
+}
+
+.brief-games-list dd {
+    margin: 0;
+}
+
+.brief-made-with {
+    text-align: center;
+    color: #bbb;
+    font-size: 0.9rem;
+}

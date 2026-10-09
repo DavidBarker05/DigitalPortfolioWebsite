@@ -1,0 +1,56 @@
+.about-me {
+    text-align: center;
+}
+
+.about-me-text {
+    text-align: center;
+}
+
+.additional-work {
+    text-align: center;
+}
+
+.additional-work i,
+.additional-work .icon {
+    vertical-align: middle;
+    margin-right: 0.4rem;
+}
+
+.additional-work i {
+    font-size: 1.25rem;
+}
+
+.additional-work .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.additional-work a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.additional-work a:hover {
+    text-decoration: none;
+}
+
+.additional-work a:hover span {
+    text-decoration: underline;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.contact a:hover span {
+    text-decoration: underline;
+}
