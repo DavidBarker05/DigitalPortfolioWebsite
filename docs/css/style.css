@@ -10,11 +10,11 @@ header {
 }
 
 main {
-    margin: 20px;
+    margin: 0px;
 }
 
 footer {
-    margin: 0;
+    margin: 0px;
 }
 
 .spacer-sm {
@@ -73,4 +73,19 @@ footer {
     font-size: 1.25rem;
     font-weight: 400;
     color: #aaa;
+}
+
+.page-contents {
+    margin: 20px;
+}
+
+.icon {
+    vertical-align: middle;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.qr {
+    width: 200px;
+    height: 200px;
 }
