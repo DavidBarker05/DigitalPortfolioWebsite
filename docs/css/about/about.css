@@ -4,6 +4,18 @@
 
 .about-me-text {
     text-align: center;
+    max-width: 100ch;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.spoken-languages {
+    text-align: center;
+}
+
+.spoken-languages ul {
+    list-style: none;
+    padding: 0;
 }
 
 .additional-work {
