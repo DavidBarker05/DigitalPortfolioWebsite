@@ -2,24 +2,94 @@
     text-align: center;
 }
 
-.about-me-text {
-    text-align: center;
-    max-width: 100ch;
+.about-me-box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 800px;
     margin: auto;
-    padding: 0 1rem;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #111;
+}
+
+.headshot {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-me-text {
+    margin: 0;
+    text-align: left;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .about-me-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me-text {
+        text-align: left;
+    }
 }
 
 .spoken-languages {
     text-align: center;
 }
 
-.spoken-languages ul {
-    list-style: none;
-    padding: 0;
+.lang-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.lang-card {
+    width: 220px;
+    border: 1px solid #444;
+    overflow: hidden;
+    text-align: center;
+    background: #111;
+}
+
+.lang-card>div {
+    padding: 0.75rem;
+}
+
+.lang-card>div+div {
+    border-top: 1px solid #444;
+}
+
+.lang-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.lang-name span {
+    display: block;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.lang-skills {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.lang-level {
+    font-weight: 600;
 }
 
 .additional-work {
     text-align: center;
+    padding-bottom: 0.25rem;
 }
 
 .additional-work i {
@@ -36,16 +106,24 @@
     text-decoration: none;
 }
 
+.additional-work a span {
+    text-decoration: underline;
+}
+
 .additional-work a:hover {
     text-decoration: none;
 }
 
 .additional-work a:hover span {
-    text-decoration: underline;
+    color: #fff;
 }
 
 .contact {
     text-align: center;
+}
+
+.contact h2 {
+    margin: 0.5rem;
 }
 
 .contact a {
@@ -53,10 +131,14 @@
     text-decoration: none;
 }
 
+.contact a span {
+    text-decoration: underline;
+}
+
 .contact a:hover {
     text-decoration: none;
 }
 
 .contact a:hover span {
-    text-decoration: underline;
+    color: #fff;
 }
