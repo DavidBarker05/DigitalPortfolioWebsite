@@ -66,6 +66,18 @@
     text-align: center;
 }
 
+.looping-video {
+    max-width: 640px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+}
+
+.looping-video iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
 .video-btn,
 .download-btn,
 .github-btn {
